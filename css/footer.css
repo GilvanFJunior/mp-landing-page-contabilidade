@@ -1,0 +1,24 @@
+footer {
+  text-align: center;
+}
+
+footer img {
+  padding: 1vh;
+}
+
+.footer-rodape {
+  margin-top: 10vh;
+}
+
+@media (max-width: 720px) {
+  footer img {
+    padding: 2px;
+  }
+
+  .container-rodape img {
+    width: 10%;
+  }
+  .footer-rodape {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.comentario {
+  text-align: center;
+  padding: 5vh 6vh;
+}
+
+.titulo-texto {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.subtitulo-texto {
+  color: var(--secondary-text);
+  font-size: 1.5rem;
+  margin-top: 3vh;
+}
+
+@media (max-width: 720px) {
+  .comentario {
+    text-align: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .titulo-texto {
+    display: flex;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .subtitulo-texto {
+    font-size: 1.3rem;
+    color: var(--secondary-text);
+  }
+}

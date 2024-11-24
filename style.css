@@ -1,0 +1,52 @@
+@import "./css/header.css";
+@import "./css/company.css";
+@import "./css/customers.css";
+@import "./css/servicos.css";
+@import "./css/contact.css";
+@import "./css/comentario.css";
+@import "./css/footer.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  --background: #000000;
+  --primary-text: #ffffff;
+  --secondary-text: #666666;
+  --btn: #df994e;
+}
+
+body {
+  font-family: "Kulim Park", sans-serif;
+}
+
+a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--btn);
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+.btn {
+  background-color: orange;
+  width: 90px;
+  text-align: center;
+  padding: 2vh;
+  color: var(--background);
+}
+.btn a {
+  color: var(--background);
+  cursor: pointer;
+}

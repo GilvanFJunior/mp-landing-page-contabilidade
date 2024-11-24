@@ -1,0 +1,83 @@
+header {
+  height: 100vh;
+  background: url("../img/banner.png");
+  background-size: cover;
+  padding: 5vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-links {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.menu-links a {
+  font-family: Kulim Park, sans-serif;
+  line-height: 1.3rem;
+}
+
+.texto-apresentacao {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitulo {
+  font-family: Kulim Park, sans-serif;
+  font-size: 5.5rem;
+  text-align: center;
+}
+.subtitulo-marca {
+  font-family: Kulim Park, sans-serif;
+  color: var(--btn);
+  font-size: 1.5rem;
+  margin-top: 2vh;
+}
+
+@media (max-width: 720px) {
+  header {
+    height: 40vh;
+    background: url("../img/banner.png");
+    background-size: cover;
+    padding: 10px;
+  }
+  .nav {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .menu-links {
+    margin-left: 15px;
+  }
+  .texto-apresentacao {
+    display: inline-block;
+    align-self: flex-start;
+    color: white;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: 5vh;
+  }
+  .subtitulo {
+    display: inline-block;
+    align-self: flex-start;
+    font-family: Kulim Park, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    display: block;
+  }
+
+  .subtitulo-marca {
+    position: absolute;
+    color: var(--btn);
+    font-size: 1rem;
+    margin-top: 3vh;
+  }
+}
